@@ -16,6 +16,12 @@ Should work with practically everything that also works with Machine Shipset.  T
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566249278]Shattered Ring Shipset Fix[/url], or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring.
 
+[h3]Recommended Companion Mods[/h3]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084]Aesthetic Terraform Stations[/url] will give you back the very old-school terraform stations a visual markers for terraforming planets.
+
+[url=]Machine Shipset Add-on: Aesthetic Terraform Station Compatibility[/url] this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.
+
 [h2]Changelog[/h2]
 
 See [url=]Change Notes[/url]
