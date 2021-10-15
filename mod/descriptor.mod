@@ -1,4 +1,4 @@
-name="Machine Shipset Addon: Shattered Ring Appearance"
+name="Machine Shipset Add-on: Shattered Ring Appearance"
 dependencies={
 	"Machine Shipset"
 	"Ringworld Graphical Enhancements"
