@@ -1,0 +1,27 @@
+[h1]Overview[/h1]
+
+The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the [b]machine_01[/b] graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.
+
+[h1]Changes[/h1]
+
+This mod contains has three, very short graphics entities.  They will only apply to empires with a graphical culture (shipset) of [b]machine_01[/b].
+
+[h2]Compatibility[/h2]
+
+Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
+
+[h3]Required Dependency Mods[/h3]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] for the original graphics and other ship-related code.
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566249278]Shattered Ring Shipset Fix[/url], or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring.
+
+[h2]Changelog[/h2]
+
+See [url=]Change Notes[/url]
+
+[h2]Source Code[/h2]
+
+Hosted on [url=https://github.com/corsairmarks/machine_shipset_destroyed_ringworld_entities]GitHub[/url]
+
+[url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]
