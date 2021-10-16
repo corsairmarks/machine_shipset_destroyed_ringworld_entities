@@ -26,7 +26,7 @@ Built for Stellaris version 3.1.* "Lem."
 
 [h2]Changelog[/h2]
 
-See [url=]Change Notes[/url]
+See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2628980994]Change Notes[/url]
 
 [h2]Source Code[/h2]
 
