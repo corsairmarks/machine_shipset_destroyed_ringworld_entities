@@ -18,7 +18,7 @@ Should work with practically everything that also works with Machine Shipset.  T
 
 ### Recommended Companion Mods
 
-[Aesthetic Terraform Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084) will give you back the very old-school terraform stations a visual markers for terraforming planets.
+[Aesthetic Terraform Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084) will give you back the very old-school terraform stations as visual markers for terraforming planets.
 
 [Machine Shipset Add-on: Aesthetic Terraform Station Compatibility]() and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.  This mod adds missing graphical definitions to the Machine Shipset.
 
