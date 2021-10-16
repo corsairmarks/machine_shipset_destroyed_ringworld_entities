@@ -10,6 +10,8 @@ This mod contains has three, very short graphics entities.  They will only apply
 
 Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
 
+Built for Stellaris version 3.1.\* "Lem."
+
 ### Required Dependency Mods
 
 [Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) for the original graphics and other ship-related code.
@@ -20,7 +22,7 @@ Should work with practically everything that also works with Machine Shipset.  T
 
 [Aesthetic Terraform Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084) will give you back the very old-school terraform stations as visual markers for terraforming planets.
 
-[Machine Shipset Add-on: Aesthetic Terraform Station Compatibility]() and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.  This mod adds missing graphical definitions to the Machine Shipset.
+[Machine Shipset Add-on: Aesthetic Terraform Station Compatibility](https://steamcommunity.com/sharedfiles/filedetails/?id=2628972292) and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.  This mod adds missing graphical definitions to the Machine Shipset.
 
 ## Changelog
 
