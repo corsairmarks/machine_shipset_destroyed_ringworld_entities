@@ -1,9 +1,10 @@
-name="Machine Shipset Add-on: Shattered Ring Appearance"
+name="Machine Shipset Add-on: Shattered Ring and Habitat Appearance"
 dependencies={
 	"Machine Shipset"
 	"Ringworld Graphical Enhancements"
 }
 tags={
+	"Fixes"
 	"Galaxy Generation"
 	"Graphics"
 	"Spaceships"
