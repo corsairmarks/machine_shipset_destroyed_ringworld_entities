@@ -27,6 +27,11 @@ Built for Stellaris version 3.1.\* "Lem."
 ## Changelog
 
 * 1.0.0 Initial version
+* 1.1.0 More visual enhancements:
+    * Machine ring worlds will now be colored with your empire's primacy color
+    * Machine ring worlds now have animated cloud cover
+    * Machine ring worlds use the Gaia planet texture, to better match the planetview graphics
+    * Machine phase 3 habitats (fully-upgraded) now have landmasses (using a continental planet texture, in accordance with the planteview graphics)
 
 ## Source Code
 
