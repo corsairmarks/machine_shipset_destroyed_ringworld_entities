@@ -68,27 +68,6 @@ entity = {
 }
 
 entity = {
-	name = "machine_01_ring_habitat_landmass_entity"
-	pdxmesh = machine_01_ring_habitat_landmass_mesh
-	locator = { name = "shadows1" position = { 0 0 0 } rotation = { 0 0 0 } }
-	locator = { name = "clouds1" position = { 0 0 0 } rotation = { 0.2 0 -0.2 } }
-	meshsettings = {
-		name = "Landmass"
-		texture_diffuse = "continental_01_diffuse.dds"
-		texture_normal = "continental_01_normals.dds"
-		texture_specular = "continental_01_spec.dds"
-		shader = "PdxMeshTerra"
-	}
-
-	game_data = {
-		emissive_recolor_crunch = 5.0
-	}
-
-	attach = { "shadows1" = "machine_01_ring_habitat_cloud_shadows_entity" }
-	attach = { "clouds1" = "machine_01_ring_habitat_clouds_entity" }
-}
-
-entity = {
 	name = "machine_01_ring_habitat_cloud_shadows_entity"
 	pdxmesh = machine_01_ring_habitat_nightlights_mesh
 
