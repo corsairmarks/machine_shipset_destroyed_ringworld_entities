@@ -24,6 +24,14 @@ Built for Stellaris version 3.1.\* "Lem."
 
 [Machine Shipset Add-on: Aesthetic Terraform Station Compatibility](https://steamcommunity.com/sharedfiles/filedetails/?id=2628972292) and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.  This mod adds missing graphical definitions to the Machine Shipset.
 
+### Known Issues
+
+In order to adjust the graphics for the Machine Shipset habitats, it was necessary to overwrite their entity definitions (text files which tell the game how to attach models and textures, and how to shade them).  Overriding a graphics entity causes an error log - expect XXX entries similar to these:
+
+```
+
+```
+
 ## Changelog
 
 * 1.0.0 Initial version
@@ -31,7 +39,8 @@ Built for Stellaris version 3.1.\* "Lem."
     * Machine ring worlds will now be colored with your empire's primacy color
     * Machine ring worlds now have animated cloud cover
     * Machine ring worlds use the Gaia planet texture, to better match the planetview graphics
-    * Machine phase 3 habitats (fully-upgraded) now have landmasses (using a continental planet texture, in accordance with the planteview graphics)
+    * Machine habitats (phase 1 and 2) retain their landmasses
+    * Machine habitats (phase 3/fully-upgraded) now have landmasses (using a continental planet texture, in accordance with the planteview graphics)
 
 ## Source Code
 
