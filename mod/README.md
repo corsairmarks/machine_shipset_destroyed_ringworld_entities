@@ -26,21 +26,26 @@ Built for Stellaris version 3.1.\* "Lem."
 
 ### Known Issues
 
-In order to adjust the graphics for the Machine Shipset habitats, it was necessary to overwrite their entity definitions (text files which tell the game how to attach models and textures, and how to shade them).  Overriding a graphics entity causes an error log - expect XXX entries similar to these:
+In order to adjust the graphics for the Machine Shipset habitats, it was necessary to overwrite their entity definitions (text files which tell the game how to attach models and textures, and how to shade them).  Overriding a graphics entity causes an error log - expect five entries similar to these:
 
 ```
-
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_core_entity added to entity system
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_01_entity added to entity system
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_02_entity added to entity system
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_03_entity added to entity system
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_03_section_entity added to entity system
 ```
 
 ## Changelog
 
 * 1.0.0 Initial version
 * 1.1.0 More visual enhancements:
-    * Machine ring worlds will now be colored with your empire's primacy color
+    * Machine ring worlds are now colored with your empire's primary color
     * Machine ring worlds now have animated cloud cover
     * Machine ring worlds use the Gaia planet texture, to better match the planetview graphics
-    * Machine habitats (phase 1 and 2) retain their landmasses
-    * Machine habitats (phase 3/fully-upgraded) now have landmasses (using a continental planet texture, in accordance with the planteview graphics)
+    * Machine habitats (phase 1) are now properly colored with their owner's primary color
+    * Machine habitats (phase 2) now properly display their landmasses
+    * Machine habitats (phase 3/fully-upgraded) now have landmasses (using a continental planet texture, in accordance with the planetview graphics) and now have animated cloud cover
 
 ## Source Code
 
