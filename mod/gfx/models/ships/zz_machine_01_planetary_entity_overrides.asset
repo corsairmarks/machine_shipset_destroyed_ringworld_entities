@@ -93,21 +93,7 @@ entity = {
 	}
 
 	attach = { "shadows1" = "machine_01_ring_habitat_cloud_shadows_entity" }
-	attach = { "shadows1" = "machine_01_ring_habitat_nightlights_entity" }
 	attach = { "clouds1" = "machine_01_ring_habitat_clouds_entity" }
-}
-
-entity = {
-	name = "machine_01_ring_habitat_nightlights_entity"
-	pdxmesh = machine_01_ring_habitat_nightlights_mesh
-
-	meshsettings = {
-		name = "Cities.001"
-		texture_diffuse = "night_lights.dds"
-		texture_normal = "nonormal.dds"
-		texture_specular = "nospec.dds"
-		shader = "AlphaBlend_00"
-	}
 }
 
 entity = {
