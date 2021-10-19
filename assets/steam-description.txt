@@ -1,28 +1,42 @@
 [h1]Overview[/h1]
 
-The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the [b]machine_01[/b] graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.
+The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the [b]machine_01[/b] graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.  In line with this mod's other prerequisite [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url], habitable Machine ringworld sections feature animated clouds and use the Gaia planet textures (instead of continental).
+
+This mod now also features enhancements to the Machine Shipset habitats.  The tier 1 and 2 habitats have both been adjusted - T1 is now color-matched to your empire flag, and T2 keeps its interior terrain after being upgraded.  The T3 habitats, which are mini-ringworlds, now display their terrain and feature animated clouds.
 
 [h1]Changes[/h1]
 
-This mod contains has three, very short graphics entities.  They will only apply to empires with a graphical culture (shipset) of [b]machine_01[/b].
+This mod contains has four, very short new graphics entities.  It also replaces fire entries from the Machine Shipset to adjust the graphics definitions to apply the above effects.  All of these changes will only apply to empires with a graphical culture (shipset) of [b]machine_01[/b].
 
 [h2]Compatibility[/h2]
 
 Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
 
-Built for Stellaris version 3.1.* "Lem."
+Built for Stellaris version 3.1.\* "Lem."
 
 [h3]Required Dependency Mods[/h3]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] for the original graphics and other ship-related code.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566249278]Shattered Ring Shipset Fix[/url], or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring.
 
 [h3]Recommended Companion Mods[/h3]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084]Aesthetic Terraform Stations[/url] will give you back the very old-school terraform stations as visual markers for terraforming planets.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628972292]Machine Shipset Add-on: Aesthetic Terraform Station Compatibility[/url] this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628972292]Machine Shipset Add-on: Aesthetic Terraform Station Compatibility[/url] and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.  This mod adds missing graphical definitions to the Machine Shipset.
+
+[h3]Known Issues[/h3]
+
+In order to adjust the graphics for the Machine Shipset habitats, it was necessary to overwrite their entity definitions (text files which tell the game how to attach models and textures, and how to shade them).  Overriding a graphics entity causes an error log - expect five entries similar to these:
+
+[code]
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_core_entity added to entity system
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_01_entity added to entity system
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_02_entity added to entity system
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_03_entity added to entity system
+[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_03_section_entity added to entity system
+[/code]
 
 [h2]Changelog[/h2]
 

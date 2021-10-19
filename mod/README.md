@@ -1,10 +1,12 @@
 # Overview
 
-The [Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the `machine_01` graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.
+The [Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the `machine_01` graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.  In line with this mod's other prerequisite [Ringworld Graphical Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102), habitable Machine ringworld sections feature animated clouds and use the Gaia planet textures (instead of continental).
+
+This mod now also features enhancements to the Machine Shipset habitats.  The tier 1 and 2 habitats have both been adjusted - T1 is now color-matched to your empire flag, and T2 keeps its interior terrain after being upgraded.  The T3 habitats, which are mini-ringworlds, now display their terrain and feature animated clouds.
 
 # Changes
 
-This mod contains has three, very short graphics entities.  They will only apply to empires with a graphical culture (shipset) of `machine_01`.
+This mod contains has four, very short new graphics entities.  It also replaces fire entries from the Machine Shipset to adjust the graphics definitions to apply the above effects.  All of these changes will only apply to empires with a graphical culture (shipset) of `machine_01`.
 
 ## Compatibility
 
@@ -16,7 +18,7 @@ Built for Stellaris version 3.1.\* "Lem."
 
 [Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) for the original graphics and other ship-related code.
 
-[Ringworld Graphical Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102), [Shattered Ring Shipset Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=2566249278), or [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring.
+[Ringworld Graphical Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102) or [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring.
 
 ### Recommended Companion Mods
 
@@ -40,9 +42,9 @@ In order to adjust the graphics for the Machine Shipset habitats, it was necessa
 
 * 1.0.0 Initial version
 * 1.1.0 More visual enhancements:
-    * Machine ring worlds are now colored with your empire's primary color
-    * Machine ring worlds now have animated cloud cover
-    * Machine ring worlds use the Gaia planet texture, to better match the planetview graphics
+    * Machine ringworlds are now colored with your empire's primary color
+    * Machine ringworlds now have animated cloud cover
+    * Machine ringworlds use the Gaia planet texture, to better match the planetview graphics
     * Machine habitats (phase 1) are now properly colored with their owner's primary color
     * Machine habitats (phase 2) now properly display their landmasses
     * Machine habitats (phase 3/fully-upgraded) now have landmasses (using a continental planet texture, in accordance with the planetview graphics) and now have animated cloud cover
