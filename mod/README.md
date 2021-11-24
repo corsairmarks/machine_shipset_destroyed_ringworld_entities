@@ -48,6 +48,7 @@ In order to adjust the graphics for the Machine Shipset habitats, it was necessa
     * Machine habitats (phase 1) are now properly colored with their owner's primary color
     * Machine habitats (phase 2) now properly display their landmasses
     * Machine habitats (phase 3/fully-upgraded) now have landmasses (using a continental planet texture, in accordance with the planetview graphics) and now have animated cloud cover
+* 1.2.0 Mark as compatible with Stellaris version 3.2 "Herbert" - no script changes
 
 ## Source Code
 

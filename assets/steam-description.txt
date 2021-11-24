@@ -12,7 +12,7 @@ This mod contains has four, very short new graphics entities.  It also replaces 
 
 Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
 
-Built for Stellaris version 3.1.* "Lem."
+Built for Stellaris version 3.2.* "Herbert."
 
 [h3]Required Dependency Mods[/h3]
 
