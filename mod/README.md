@@ -12,7 +12,7 @@ This mod contains has four, very short new graphics entities.  It also replaces 
 
 Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
 
-Built for Stellaris version 3.3 "Libra" and backwards-compatible with versions 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
+Built for Stellaris version 3.4 "Cepheus" and backwards-compatible with versions 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
 
 ### Required Dependency Mods
 
@@ -50,6 +50,7 @@ In order to adjust the graphics for the Machine Shipset habitats, it was necessa
     * Machine habitats (phase 3/fully-upgraded) now have landmasses (using a continental planet texture, in accordance with the planetview graphics) and now have animated cloud cover
 * 1.2.0 Mark as compatible with Stellaris version 3.2 "Herbert" - no script changes
 * 1.3.0 Mark as compatible with Stellaris version 3.3 "Libra" - no script changes
+* 1.4.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
 
 ## Source Code
 

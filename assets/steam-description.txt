@@ -9,7 +9,7 @@ This mod contains has four, very short new graphics entities.  It also replaces 
 [h2]Compatibility[/h2]
 Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
 
-Built for Stellaris version 3.3 "Libra" and backwards-compatible with versions 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
+Built for Stellaris version 3.4 "Cepheus" and backwards-compatible with versions 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
 
 [h3]Required Dependency Mods[/h3]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] for the original graphics and other ship-related code.
