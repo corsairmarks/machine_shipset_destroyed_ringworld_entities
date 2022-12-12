@@ -118,6 +118,9 @@ entity = {
 entity = {
 	name = "machine_01_habitat_phase_03_entity"
 	pdxmesh = "machine_01_upgraded_orbital_habitat_frame_mesh"
+	# locator = { name = "part2" position = { 0 0 0 } rotation = { 0 90 0 } scale = 1.5 }
+	# locator = { name = "part3" position = { 0 0 0 } rotation = { 0 90 0 } scale = 1.5 }
+	# locator = { name = "part4" position = { 0 0 0 } rotation = { 0 90 0 } scale = 1.5 }
 	locator = { name = "explosion_effect" position = { 0 3 0 } }
 
 	scale = 1.5
@@ -135,15 +138,16 @@ entity = {
 		shader_type = ship
 		emissive_recolor_crunch = 5.0
 	}
-	meshsettings = {
-		shader = "PdxMeshTerra" # this seems to be the secret sauce (PdxMeshTerra)
-	}
 	attach = { "part1" = "machine_01_habitat_phase_03_section_entity" }
+	# attach = { "part2" = "machine_01_ring_habitat_landmass_entity" }
+	# attach = { "part3" = "machine_01_ring_habitat_cloud_shadows_entity" }
+	# attach = { "part4" = "machine_01_ring_habitat_clouds_entity" }
 }
 
 entity = {
 	name = "machine_01_habitat_phase_03_section_entity"
 	pdxmesh = "machine_01_upgraded_orbital_habitat_mesh"
+	# locator = { name = "landmass1" position = { 0 0 0 } rotation = { 0 45 0 } }
 	locator = { name = "shadows1" position = { 0 0 0 } rotation = { 0 0 0 } }
 	locator = { name = "clouds1" position = { 0 0 0 } rotation = { 0 0 0 } scale = 0.999 }
 	scale = 1.5
@@ -173,14 +177,32 @@ entity = {
 		shader = "PdxMeshTerra" # mesh was PdxMeshPlanet
 	}
 
+	meshsettings = {
+		name = "Cities.001"
+		texture_normal = "nonormal.dds" # normal was "night_lights.dds"
+		texture_specular = "nospec.dds" # specular was nothing
+	}
+
 	game_data = {
 		shader_type = ship
 		emissive_recolor_crunch = 5.0
 	}
 
+	# attach = { "landmass1" = "machine_01_ring_habitat_landmass_entity" }
 	attach = { "shadows1" = "machine_01_ring_habitat_cloud_shadows_entity" }
 	attach = { "clouds1" = "machine_01_ring_habitat_clouds_entity" }
 }
+
+# entity = {
+# 	name = "machine_01_ring_habitat_landmass_entity"
+# 	pdxmesh = machine_01_ring_habitat_landmass_mesh
+# 	meshsettings = {
+# 		texture_diffuse = "continental_01_diffuse.dds"
+# 		texture_normal = "continental_01_normals.dds"
+# 		texture_specular = "continental_01_habitat_spec.dds"
+# 		shader = "PdxMeshTerra"
+# 	}
+# }
 
 entity = {
 	name = "machine_01_ring_habitat_cloud_shadows_entity"
@@ -191,12 +213,12 @@ entity = {
 		texture_diffuse = "clouds_medium_shadow_diffuse.dds"
 		texture_normal = "nonormal.dds"
 		texture_specular = "nospec.dds"
-		shader = "AlphaBlend_00"
+		shader = "AlphaBlend_00" # PdxMeshClouds would be ideal, but it doesn't render properly with how things are attached
 	}
 	game_data = {
 		size = 25
 		uv_animation_speed 		= 0.004
-		uv_animation_direction 	= { 1.0 0.0 }
+		uv_animation_direction 	= { -1.0 0.0 }
 	}
 }
 
@@ -209,11 +231,11 @@ entity = {
 		texture_diffuse = "clouds_medium_diffuse.dds"
 		texture_normal = "clouds_medium_normal.dds"
 		texture_specular = "clouds_medium_specular.dds"
-		shader = "AlphaBlend_00"
+		shader = "AlphaBlend_00" # PdxMeshClouds would be ideal, but it doesn't render properly with how things are attached
 	}
 	game_data = {
 		size = 25
 		uv_animation_speed 		= 0.004
-		uv_animation_direction 	= { 1.0 0.0 }
+		uv_animation_direction 	= { -1.0 0.0 }
 	}
 }

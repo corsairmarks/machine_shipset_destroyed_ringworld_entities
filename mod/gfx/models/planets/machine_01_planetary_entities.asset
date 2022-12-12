@@ -85,17 +85,16 @@ entity = {
 
 	meshsettings = {
 		name = "Cube.002"
-		index = 0
 		texture_diffuse = "clouds_medium_diffuse.dds"
 		texture_normal = "clouds_medium_normal.dds"
 		texture_specular = "clouds_medium_specular.dds"
-		shader = "AlphaBlend_00"
+		shader = "AlphaBlend_00" # PdxMeshClouds would be ideal, but it doesn't render properly with how things are attached
 	}
 
 	game_data = {
 		size = @ringworld_segment_size
 		uv_animation_speed 		= 0.004
-		uv_animation_direction 	= { 1.0 0.0 }
+		uv_animation_direction 	= { -1.0 0.0 }
 	}
 }
 
@@ -112,13 +111,13 @@ entity = {
 		texture_diffuse = "clouds_medium_shadow_diffuse.dds"
 		texture_normal = "nonormal.dds"
 		texture_specular = "nospec.dds"
-		shader = "AlphaBlend_00"
+		shader = "AlphaBlend_00" # PdxMeshClouds would be ideal, but it doesn't render properly with how things are attached
 	}
 
 	game_data = {
 		size = @ringworld_segment_size
 		uv_animation_speed 		= 0.004
-		uv_animation_direction 	= { 1.0 0.0 }
+		uv_animation_direction 	= { -1.0 0.0 }
 	}
 }
 
@@ -130,10 +129,6 @@ entity = {
 	default_state = "idle"
 	state = { name = "idle"		state_time = 5 }
 	state = { name = "construction" }
-
-	meshsettings = {
-		shader = "PdxMeshPlanetEmissive"
-	}
 
 	game_data = {
 		size = @ringworld_segment_size
@@ -155,10 +150,6 @@ entity = {
 	state = { name = "construction"
 	start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } } }
 
-	meshsettings = {
-		shader = "PdxMeshPlanetEmissive"
-	}
-
 	game_data = {
 		size = @ringworld_segment_size
 		shader_type = ship
@@ -176,10 +167,6 @@ entity = {
 	name = "machine_01_ringworld_phase_3_construction_entity"
 	cull_radius = 500.0
 	pdxmesh = "ringworld_seam_01_mesh"
-
-	meshsettings = {
-		shader = "PdxMeshPlanetEmissive"
-	}
 
 	state = { name = "construction"
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
