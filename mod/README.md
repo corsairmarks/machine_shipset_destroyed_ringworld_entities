@@ -1,8 +1,10 @@
 # Overview
 
-The [Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the `machine_01` graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.  In line with this mod's other prerequisite [Ringworld Graphical Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102), habitable Machine ringworld sections feature animated clouds and use the Gaia planet textures (instead of continental).
+The [Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the `machine_01` graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.  In line with this mod's other prerequisite [Ringworld Graphical Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102), habitable Machine ringworld sections feature clouds and use the Gaia planet textures (instead of continental).
 
-This mod now also features enhancements to the Machine Shipset habitats.  The tier 1 and 2 habitats have both been adjusted - T1 is now color-matched to your empire flag, and T2 keeps its interior terrain after being upgraded.  The T3 habitats, which are mini-ringworlds, now display their terrain and feature animated clouds.
+This mod also features enhancements to the Machine Shipset habitats.  The tier 1 and 2 habitats have both been adjusted - T1 is color-matched to your empire flag, and T2 keeps its interior terrain after being upgraded.  The T3 habitats, which are mini-ringworlds, display their terrain and feature clouds.
+
+Note: as of Stellaris version 3.6 "Orion" changes to shaders mean that Machine ringworlds and T3 habitats no longer have animated clouds.
 
 # Changes
 
@@ -12,7 +14,7 @@ This mod contains has four, very short new graphics entities.  It also replaces 
 
 Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
 
-Built for Stellaris version 3.4 "Cepheus" and backwards-compatible with versions 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
+Built for Stellaris version 3.6 "Orion" and backwards-compatible with versions 3.5 "Fornax," 3.4 "Cepheus," 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
 
 ### Required Dependency Mods
 
@@ -31,11 +33,11 @@ Built for Stellaris version 3.4 "Cepheus" and backwards-compatible with versions
 In order to adjust the graphics for the Machine Shipset habitats, it was necessary to overwrite their entity definitions (text files which tell the game how to attach models and textures, and how to shade them).  Overriding a graphics entity causes an error log - expect five entries similar to these:
 
 ```
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_core_entity added to entity system
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_01_entity added to entity system
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_02_entity added to entity system
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_03_entity added to entity system
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_03_section_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_core_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_phase_01_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_phase_02_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_phase_03_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_phase_03_section_entity added to entity system
 ```
 
 ## Changelog
@@ -51,6 +53,8 @@ In order to adjust the graphics for the Machine Shipset habitats, it was necessa
 * 1.2.0 Mark as compatible with Stellaris version 3.2 "Herbert" - no script changes
 * 1.3.0 Mark as compatible with Stellaris version 3.3 "Libra" - no script changes
 * 1.4.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
+* 1.4.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
+* 1.5.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax") - minor, backwards compatible tweaks
 
 ## Source Code
 

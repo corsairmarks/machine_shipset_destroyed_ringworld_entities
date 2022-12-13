@@ -1,7 +1,9 @@
 [h1]Overview[/h1]
-The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the [b]machine_01[/b] graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.  In line with this mod's other prerequisite [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url], habitable Machine ringworld sections feature animated clouds and use the Gaia planet textures (instead of continental).
+The [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] mod is missing three entity definitions for it to properly apply its textures to permanently ruined ringworld sections.  It already has the correct graphics meshes, however the entity associations for the game to find them are missing.  This mod adds the three missing entities so that permanently ruined ringworld sections will can match the [b]machine_01[/b] graphical culture - which includes sections destroyed by The Interloper with Origin: Shattered Ring.  In line with this mod's other prerequisite [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url], habitable Machine ringworld sections feature clouds and use the Gaia planet textures (instead of continental).
 
-This mod now also features enhancements to the Machine Shipset habitats.  The tier 1 and 2 habitats have both been adjusted - T1 is now color-matched to your empire flag, and T2 keeps its interior terrain after being upgraded.  The T3 habitats, which are mini-ringworlds, now display their terrain and feature animated clouds.
+This mod also features enhancements to the Machine Shipset habitats.  The tier 1 and 2 habitats have both been adjusted - T1 is color-matched to your empire flag, and T2 keeps its interior terrain after being upgraded.  The T3 habitats, which are mini-ringworlds, display their terrain and feature clouds.
+
+Note: as of Stellaris version 3.6 "Orion" changes to shaders mean that Machine ringworlds and T3 habitats no longer have animated clouds.
 
 [h1]Changes[/h1]
 This mod contains has four, very short new graphics entities.  It also replaces fire entries from the Machine Shipset to adjust the graphics definitions to apply the above effects.  All of these changes will only apply to empires with a graphical culture (shipset) of [b]machine_01[/b].
@@ -9,7 +11,7 @@ This mod contains has four, very short new graphics entities.  It also replaces 
 [h2]Compatibility[/h2]
 Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
 
-Built for Stellaris version 3.4 "Cepheus" and backwards-compatible with versions 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
+Built for Stellaris version 3.6 "Orion" and backwards-compatible with versions 3.5 "Fornax," 3.4 "Cepheus," 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
 
 [h3]Required Dependency Mods[/h3]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] for the original graphics and other ship-related code.
@@ -24,11 +26,11 @@ Built for Stellaris version 3.4 "Cepheus" and backwards-compatible with versions
 [h3]Known Issues[/h3]
 In order to adjust the graphics for the Machine Shipset habitats, it was necessary to overwrite their entity definitions (text files which tell the game how to attach models and textures, and how to shade them).  Overriding a graphics entity causes an error log - expect five entries similar to these:
 [code]
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_core_entity added to entity system
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_01_entity added to entity system
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_02_entity added to entity system
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_03_entity added to entity system
-[17:08:32][pdx_entity.cpp:2583]: Duplicate of machine_01_habitat_phase_03_section_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_core_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_phase_01_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_phase_02_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_phase_03_entity added to entity system
+[04:32:01][graphics/pdx_entity.cpp:2546]: Duplicate of machine_01_habitat_phase_03_section_entity added to entity system
 [/code]
 [h2]Changelog[/h2]
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2628980994]Change Notes[/url]
@@ -36,4 +38,4 @@ See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2628980994
 [h2]Source Code[/h2]
 Hosted on [url=https://github.com/corsairmarks/machine_shipset_destroyed_ringworld_entities]GitHub[/url]
 
-[url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]
+[url=https://discord.gg/2qjkAF8DY7][img]https://i.imgur.com/4Und3QN.png[/img][/url]
