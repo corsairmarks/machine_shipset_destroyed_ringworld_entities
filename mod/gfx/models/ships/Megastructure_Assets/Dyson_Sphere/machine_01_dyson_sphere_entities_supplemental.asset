@@ -1,0 +1,25 @@
+# matches value from gfx\models\ships\Megastructure_Assets\Dyson_Sphere\machine_01_dyson_sphere_entities.asset
+@dyson_scale = 32
+
+entity = {
+	name = "machine_01_destroyed_dyson_sphere_entity"
+	pdxmesh = "machine_01_dyson_sphere_destroyed_mesh"
+	scale = @dyson_scale
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 10
+		start_event = { trigger_once = yes sound = { soundeffect = "dyson_sphere_destroyed" stop_on_state_change = yes } }
+	}
+}
+
+# I believe this is a potential bug in the base game - the culture-specific entities have _destroyed before dyson_sphere, but the actual entity is dyson_sphere_destroyed_entity
+entity = {
+	name = "machine_01_dyson_sphere_destroyed_entity"
+	pdxmesh = "machine_01_dyson_sphere_destroyed_mesh"
+	scale = @dyson_scale
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 10
+		start_event = { trigger_once = yes sound = { soundeffect = "dyson_sphere_destroyed" stop_on_state_change = yes } }
+	}
+}

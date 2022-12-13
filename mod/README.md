@@ -54,7 +54,9 @@ In order to adjust the graphics for the Machine Shipset habitats, it was necessa
 * 1.3.0 Mark as compatible with Stellaris version 3.3 "Libra" - no script changes
 * 1.4.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
 * 1.4.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
-* 1.5.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax") - minor, backwards compatible tweaks
+* 1.5.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
+    * Minor, backward-compatible entity changes
+    * Add support for destroyed Machine dyson spheres (entity missing from the original mod)
 
 ## Source Code
 
