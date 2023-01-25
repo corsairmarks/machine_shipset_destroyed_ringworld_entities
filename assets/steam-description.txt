@@ -15,13 +15,13 @@ Built for Stellaris version 3.6 "Orion" and backwards-compatible with versions 3
 
 [h3]Required Dependency Mods[/h3]
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] for the original graphics and other ship-related code.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491]Machine Shipset[/url] for the original graphics and other ship-related code
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102]Ringworld Graphical Enhancements[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring
 [/list]
 [h3]Recommended Companion Mods[/h3]
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084]Aesthetic Terraform Stations[/url] will give you back the very old-school terraform stations as visual markers for terraforming planets.
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628972292]Machine Shipset Add-on: Aesthetic Terraform Station Compatibility[/url] and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.  This mod adds missing graphical definitions to the Machine Shipset.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084]Aesthetic Terraform Stations[/url] will give you back the very old-school terraform stations as visual markers for terraforming planets
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2628972292]Machine Shipset Add-on: Aesthetic Terraform Station Compatibility[/url] and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations (adds missing graphical definitions to the Machine Shipset)
 [/list]
 [h3]Known Issues[/h3]
 In order to adjust the graphics for the Machine Shipset habitats, it was necessary to overwrite their entity definitions (text files which tell the game how to attach models and textures, and how to shade them).  Overriding a graphics entity causes an error log - expect five entries similar to these:
