@@ -12,21 +12,19 @@ This mod contains has four, very short new graphics entities.  It also replaces 
 
 ## Compatibility
 
-Should work with practically everything that also works with Machine Shipset.  This mod is technically achievement compatible, but Machine Shipset and any of the dependencies for Origin: Shattered Ring graphics swaps are not.
+Should work with practically everything that also works with Machine Shipset.
 
 Built for Stellaris version 3.6 "Orion" and backwards-compatible with versions 3.5 "Fornax," 3.4 "Cepheus," 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
 
 ### Required Dependency Mods
 
-[Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) for the original graphics and other ship-related code.
-
-[Ringworld Graphical Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102) or [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring.
+* [Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2077186491) for the original graphics and other ship-related code
+* [Ringworld Graphical Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2628518102) or [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) to apply the owner's graphical culture to the ringworld from Origin: Shattered Ring
 
 ### Recommended Companion Mods
 
-[Aesthetic Terraform Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084) will give you back the very old-school terraform stations as visual markers for terraforming planets.
-
-[Machine Shipset Add-on: Aesthetic Terraform Station Compatibility](https://steamcommunity.com/sharedfiles/filedetails/?id=2628972292) and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.  This mod adds missing graphical definitions to the Machine Shipset.
+* [Aesthetic Terraform Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084) will give you back the very old-school terraform stations as visual markers for terraforming planets
+* [Machine Shipset Add-on: Aesthetic Terraform Station Compatibility](https://steamcommunity.com/sharedfiles/filedetails/?id=2628972292) and this compatibility patch ensures the correct Machine Shipset graphics are used for the above terraform stations.  This mod adds missing graphical definitions to the Machine Shipset
 
 ### Known Issues
 
@@ -56,6 +54,7 @@ In order to adjust the graphics for the Machine Shipset habitats, it was necessa
 * 1.4.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
 * 1.5.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax") - minor, backwards compatible tweaks
 * 1.6.0 Add support for destroyed Machine dyson spheres (entity missing from the original mod)
+* 1.7.0 Add compatibility trigger for other mods to check whether this one is active
 
 ## Source Code
 
