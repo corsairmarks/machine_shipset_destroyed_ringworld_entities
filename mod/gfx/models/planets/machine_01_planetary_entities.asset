@@ -166,7 +166,7 @@ entity = {
 entity = {
 	name = "machine_01_ringworld_phase_3_construction_entity"
 	cull_radius = 500.0
-	pdxmesh = "ringworld_seam_01_mesh"
+	pdxmesh = "machine_01_ringworld_seam_01_mesh"
 
 	state = { name = "construction"
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
