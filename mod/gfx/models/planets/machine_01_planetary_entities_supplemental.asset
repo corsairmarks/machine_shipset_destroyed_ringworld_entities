@@ -17,3 +17,18 @@ entity = {
 	cull_radius = 500.0
 	pdxmesh = "machine_01_ringworld_tech_damaged_01_mesh"
 }
+
+entity = {
+	name = "machine_01_ringworld_01_damaged_full_entity"
+	cull_radius = 10000.0
+
+	locator = { name = "ringworld_north" 		position = { 450	0 	0 		} rotation = {	90	0	0	}		}
+	locator = { name = "ringworld_south" 		position = { -450	0 	0 		} rotation = {	-90	0	0	}		}
+	locator = { name = "ringworld_west" 		position = { 0		0 	450 	} rotation = {	0	0	0	}		}
+	locator = { name = "ringworld_east" 		position = { 0		0 	-450 	} rotation = {	180	0	0	}		}
+
+	attach = { ringworld_north = "machine_01_ringworld_destroyed_entity" }
+	attach = { ringworld_south = "machine_01_ringworld_destroyed_entity" }
+	attach = { ringworld_west = "machine_01_ringworld_destroyed_entity" }
+	attach = { ringworld_east = "machine_01_ringworld_destroyed_entity" }
+}

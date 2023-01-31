@@ -56,6 +56,7 @@ In order to adjust the graphics for the Machine Shipset habitats, it was necessa
 * 1.6.0 Add support for destroyed Machine dyson spheres (entity missing from the original mod)
 * 1.7.0 Add compatibility trigger for other mods to check whether this one is active
     * Fix incorrect mesh for construction seams
+* 1.8.0 Add `machine_01` preview entity for ringworld origins
 
 ## Source Code
 
