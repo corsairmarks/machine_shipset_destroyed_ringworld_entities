@@ -4,7 +4,7 @@ The [Machine Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=207
 
 This mod also features enhancements to the Machine Shipset habitats.  The tier 1 and 2 habitats have both been adjusted - T1 is color-matched to your empire flag, and T2 keeps its interior terrain after being upgraded.  The T3 habitats, which are mini-ringworlds, display their terrain and feature clouds.
 
-Note: as of Stellaris version 3.6 "Orion" changes to shaders mean that Machine ringworlds and T3 habitats no longer have animated clouds.
+Note: as of Stellaris version 3.7 "Canis Minor" changes to shaders mean that Machine ringworlds and T3 habitats no longer have animated clouds.
 
 # Changes
 
@@ -14,7 +14,7 @@ This mod contains has four, very short new graphics entities.  It also replaces 
 
 Should work with practically everything that also works with Machine Shipset.
 
-Built for Stellaris version 3.6 "Orion" and backwards-compatible with versions 3.5 "Fornax," 3.4 "Cepheus," 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."
+Built for Stellaris version 3.7 "Canis Minor" and backwards-compatible with versions 3.6 "Orion," 3.5 "Fornax," 3.4 "Cepheus," 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem," and 3.0 "Dick."  Not compatible with achievements, but neither are the dependencies.
 
 ### Required Dependency Mods
 
@@ -51,11 +51,11 @@ In order to adjust the graphics for the Machine Shipset habitats, it was necessa
 * 1.2.0 Mark as compatible with Stellaris version 3.2 "Herbert" - no script changes
 * 1.3.0 Mark as compatible with Stellaris version 3.3 "Libra" - no script changes
 * 1.4.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
-* 1.4.0 Mark as compatible with Stellaris version 3.4 "Cepheus" - no script changes
 * 1.5.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax") - minor, backwards compatible tweaks
 * 1.6.0 Add support for destroyed Machine dyson spheres (entity missing from the original mod)
 * 1.7.0 Add compatibility trigger for other mods to check whether this one is active
     * Fix incorrect mesh for construction seams
+* 1.8.0 Mark as compatible with Stellaris version 3.7 "Canis Minor" - no script changes
 
 ## Source Code
 
